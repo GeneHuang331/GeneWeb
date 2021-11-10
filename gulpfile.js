@@ -157,7 +157,7 @@ exports.default = gulp.series(
   function (done) {
     browserSync.init({
       server: {
-        index: "index.html",
+        index:'index.html',
         baseDir: "./public",
       },
     });
